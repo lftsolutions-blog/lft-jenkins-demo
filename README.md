@@ -4,7 +4,7 @@
 
 ### Build the Dockerfile
 ```shell
-docker build -t lft-jenkins-demo:latest .
+docker build --no-cache -t lft-jenkins-demo:latest .
 ```
 
 ### Run the Docker Image created from above Dockerfile
