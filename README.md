@@ -2,6 +2,11 @@
 
 ## How To Use
 
+### Create Docker Volume
+```shell
+docker volume create lft-jenkins-demo-volume
+```
+
 ### Build the Dockerfile
 ```shell
 docker build --no-cache -t lft-jenkins-demo:latest .
@@ -9,7 +14,7 @@ docker build --no-cache -t lft-jenkins-demo:latest .
 
 ### Run the Docker Image created from above Dockerfile
 ```shell
-docker run -p 8080:8080 -p 50000:50000 lft-jenkins-demo:latest
+docker run -d -p 8080:8080 -p 50000:50000 -v lft-jenkins-demo-volume:/var/jenkins_home lft-jenkins-demo:latest
 ```
 
 ## References
