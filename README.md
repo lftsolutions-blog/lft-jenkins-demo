@@ -21,3 +21,4 @@ docker run -d -p 8080:8080 -p 50000:50000 -v lft-jenkins-demo-volume:/var/jenkin
 - [Jenkins Base Image](https://hub.docker.com/r/jenkins/jenkins)
 - [Official Jenkins Docker image docs](https://github.com/jenkinsci/docker/blob/master/README.md)
 - [Set up and use local docker volume](https://rangle.io/blog/running-jenkins-and-persisting-state-locally-using-docker-2/)
+- [Official Docker docs for creating volumes](https://docs.docker.com/engine/reference/commandline/volume_create/)
