@@ -1,4 +1,4 @@
-# lft-jenkins-demo  
+# lft-bp-jenkins
 
 ## How To Use
 
