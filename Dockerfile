@@ -1,2 +1,2 @@
-FROM jenkins/jenkins:lts-jdk11
+FROM jenkins/jenkins:lts-jdk11@sha256:6aa6c6bd7da914bf5333305c8102cb26965ea4b227e37f4269315725a2b0cd81
 LABEL maintainer=kyle.crane@lftsolutions.com
